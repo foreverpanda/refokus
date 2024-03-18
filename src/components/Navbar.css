@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "satoshi";
+    src: url(https://assets.website-files.com/6334198f239547d0f9cd84b3/649d7ca1f5c7aa41f51eb483_satoshi-variable.woff2);
+}
+
+.satoshi{
+    font-family: "satoshi";
+}
