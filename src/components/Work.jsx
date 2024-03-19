@@ -88,7 +88,7 @@ function Work() {
   });
 
   return (
-    <div className="w-full satoshi">
+    <div className="w-full satoshi bg-zinc-900">
       <div className="relative max-w-sreen-xl mx-auto text-center">
         <h1 className="text-[30vw] leading-none font-medium select-none tracking-tight ">
           work

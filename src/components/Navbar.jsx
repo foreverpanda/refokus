@@ -3,7 +3,7 @@ import "./Navbar.css";
 import Button from "./Button";
 function Navbar() {
   return (
-    <div className="satoshi max-w-screen-xl mx-auto py-6  flex items-center justify-between border-b-[1px] border-zinc-700">
+    <div className="satoshi max-w-screen-xl mx-auto py-6  flex items-center justify-between border-b-[1px] border-zinc-700 ">
       <div className="flex items-center ">
         <img src="https://assets-global.website-files.com/6334198f239547d0f9cd84b3/63349803431f1562dccf1802_refokus%20logo.svg"></img>
         <div className="links flex gap-14 ml-20">
