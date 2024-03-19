@@ -28,8 +28,10 @@ function Marquees() {
     ],
   ];
   return (
-    <div className="bg-zinc-900 py-20 my-32">
-    {images.map(item => <Marquee imagesUrls = {item}/>)}
+    <div className="bg-zinc-900 py-20 my-32 w-full overflow-hidden relative">
+      {images.map((item,index) => (
+        <Marquee key={index}  direction={index === 0 ? "left" : "right"} imagesUrls={item} />
+      ))}
     </div>
   );
 }
