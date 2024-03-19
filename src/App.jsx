@@ -1,3 +1,4 @@
+import LocomotiveScroll from 'locomotive-scroll';
 import React from "react";
 import Navbar from "./components/Navbar";
 import Work from "./components/Work";
@@ -8,6 +9,7 @@ import Cards from "./components/Cards";
 import Footer from "./components/Footer";
 
 function App() {
+  const locomotiveScroll = new LocomotiveScroll();
   return (
     <div className="w-full h-screen bg-zinc-900 text-white">
       <Navbar />
