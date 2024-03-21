@@ -62,7 +62,7 @@ function Products() {
           initial={{ y: pos, x: "-50%" }}
           animate={{ y: pos + `rem` }}
           transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.6 }}
-          className="window absolute w-[32rem] h-[23rem] left-[44%] overflow-hidden "
+          className="window absolute w-[32rem] h-[23rem] left-[43%] overflow-hidden "
         >
           <motion.div
             animate={{ y: -pos + `rem` }}
